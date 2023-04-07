@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
 .wrap {
     display: flex;
     height: 100vh;
@@ -17,8 +20,22 @@
     align-items: center;
 }
 .container__item a {
-    display: block;
-    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
+    width: 160px;
     text-align: center;
+    font-size: 24px;
+    color: #14105d;
+    background-color: rgb(111, 250, 255);
+    border: 2px solid #5e59b0;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.container__item a:hover {
+    height: 50px;
+    width: 180px;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
 }
