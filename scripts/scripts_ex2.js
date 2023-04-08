@@ -1,15 +1,12 @@
 let nameUsersArr = [];
-let nameLogin;
 let check = true;
-let i = 1;
 
-while(i < 6) {
+for(let i = 1; i < 6; i++) {
     nameUsersArr.push(prompt("Зареєструйте ім'я користувача № " + i));
-    i ++;
 }
 
 while(check) {
-        nameLogin = prompt("Введіть ім'я для входу: ")
+    let nameLogin = prompt("Введіть ім'я для входу: ")
 
     for (let i = 0; i < nameUsersArr.length; i++) {
         if (nameLogin === nameUsersArr[i]) {
