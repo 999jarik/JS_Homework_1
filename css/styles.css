@@ -1,9 +1,21 @@
 body {
     background-color: rgb(29, 29, 29);
 }
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+}
+.header h1 {
+    width: fit-content;
+    font-size: 32px;
+    font-weight: 700;
+    color: aliceblue;
+}
 .wrap {
     display: flex;
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     margin: 0 auto;
     width: 400px;
