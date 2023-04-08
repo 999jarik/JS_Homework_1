@@ -1,15 +1,15 @@
 body {
     background-color: rgb(29, 29, 29);
 }
-.header {
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 32px;
 }
-.header h1 {
+.title h1 {
     width: fit-content;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     color: aliceblue;
 }
@@ -18,13 +18,13 @@ body {
     height: 80vh;
     align-items: center;
     margin: 0 auto;
-    width: 400px;
+    width: 480px;
 }
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 480px;
 }
 .container__item {
     height: 200px;
