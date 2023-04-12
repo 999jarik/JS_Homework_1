@@ -1,5 +1,5 @@
 function mathPow(a, b) {
-    var resultPow = (a ** b);
+var resultPow = (a ** b);
     return resultPow
 }
 
@@ -21,5 +21,4 @@ while (isNaN(degree)) {
     }
 }
 
-let numInPow = mathPow(num, degree);
-alert('число ' + num + ' в степені ' + degree + ' дорівнює ' + numInPow);
+alert('число ' + num + ' в степені ' + degree + ' дорівнює ' + mathPow(num, degree));
