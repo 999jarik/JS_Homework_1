@@ -12,9 +12,10 @@ while(check) {
         if (nameLogin === nameUsersArr[i]) {
             alert("Ви успішно ввійшли " + nameLogin);
             check = false;
+            break;
+            }
         }
-    }
     if(check === true) {
-        alert("Імені не знайдено")
+    alert("Імені не знайдено");
     }
 }
